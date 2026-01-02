@@ -1,0 +1,11 @@
+{
+  "name": "git-utils",
+  "version": "1.0.0",
+  "description": "Git workflow utilities and shortcuts",
+  "author": {
+    "name": "Subzero"
+  },
+  "license": "MIT",
+  "keywords": ["git", "workflow", "productivity"],
+  "commands": "./commands/"
+}

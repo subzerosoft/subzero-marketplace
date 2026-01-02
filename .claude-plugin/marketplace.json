@@ -1,0 +1,31 @@
+{
+  "name": "subzero-marketplace",
+  "owner": {
+    "name": "Subzero",
+    "email": "dev@subzero.io"
+  },
+  "metadata": {
+    "description": "Subzero's curated marketplace for Claude Code plugins",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "code-reviewer",
+      "source": "./plugins/code-reviewer",
+      "description": "Automated code review with best practices analysis",
+      "version": "1.0.0",
+      "author": { "name": "Subzero" },
+      "category": "development",
+      "tags": ["code-review", "quality", "security"]
+    },
+    {
+      "name": "git-utils",
+      "source": "./plugins/git-utils",
+      "description": "Git workflow utilities and shortcuts",
+      "version": "1.0.0",
+      "author": { "name": "Subzero" },
+      "category": "productivity",
+      "tags": ["git", "workflow", "commits"]
+    }
+  ]
+}
